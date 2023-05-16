@@ -1,0 +1,79 @@
+{
+    "settings": {
+        "page_width": 8.5,
+        "page_height": 11,
+        "left_margin": 0.5,
+        "top_margin": 0.5,
+        "bottom_margin": 0.5,
+        "header_font_size": 14,
+        "item_font_size": 12,
+        "header_font": "DejaVuSerif",
+        "item_font": "DejaVuSerif"
+    },
+    "categories": {
+        "Fruits & Vegetables": [
+            "Apples",
+            "Bananas",
+            "Broccoli",
+            "Carrots",
+            "Cauliflower",
+            "Grapes",
+            "Green beans",
+            "Kale",
+            "Lettuce",
+            "Oranges",
+            "Peppers",
+            "Potatoes",
+            "Spinach",
+            "Tomatoes",
+            "Zucchini"
+        ],
+        "Meat & Seafood": [
+            "Chicken breasts",
+            "Ground beef",
+            "Salmon fillets",
+            "Shrimp",
+            "Tilapia fillets",
+            "Turkey"
+        ],
+        "Dairy & Eggs": [
+            "Butter",
+            "Cheese",
+            "Eggs",
+            "Milk",
+            "Yogurt"
+        ],
+        "Grains & Pasta": [
+            "Bread",
+            "Brown rice",
+            "Oats",
+            "Pasta",
+            "Quinoa"
+        ],
+        "Canned & Packaged Goods": [
+            "Black beans",
+            "Chickpeas",
+            "Diced tomatoes",
+            "Pasta sauce",
+            "Peanut butter",
+            "Tuna"
+        ],
+        "Snacks & Beverages": [
+            "Almonds",
+            "Coffee",
+            "Crackers",
+            "Granola bars",
+            "Tea",
+            "Trail mix"
+        ],
+        "Spices & Condiments": [
+            "Balsamic vinegar",
+            "Honey",
+            "Ketchup",
+            "Mayonnaise",
+            "Olive oil",
+            "Soy sauce"
+        ]
+    }
+}
+    
