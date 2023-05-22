@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "page_width": 5.5,
+    "page_height": 8.5,
+    "left_margin": 0.1,
+    "right_margin": 0.1,
+    "top_margin": 0.1,
+    "bottom_margin": 0.1,
+    "header_font_size": 14,
+    "item_font_size": 12,
+    "header_font": "DejaVuSerif",
+    "item_font": "DejaVuSerif",
+    "row_spacing": 1.5
+    
+  },
+  "categories": {
+    "Essentials": [
+      "Passport",
+      "Wallet",
+      "Phone",
+      "Chargers",
+      "Travel itinerary",
+      "Cash",
+      "Business cards"
+    ],
+    "Clothing": [
+      "Shirts (1 per day)",
+      "Jeans (3 pairs)",
+      "Hoodie",
+      "Raincoat",
+      "Underwear",
+      "Socks",
+      "Belt",
+      "Pajamas",
+      "Comfortable shoes"
+    ],
+    "Toiletries": [
+      "Toothbrush",
+      "Toothpaste",
+      "Shampoo",
+      "Conditioner",
+      "Body wash",
+      "Deodorant",
+      "Hairbrush",
+      "Razor",
+      "Shaving cream",
+      "Feminine products",
+      "Medications",
+      "First aid kit",
+      "Hand sanitizer",
+      "Face mask"
+    ],
+    "Electronics": [
+      "Laptop",
+      "Tablet",
+      "Phone charger",
+      "Laptop charger",
+      "Headphones",
+      "Power bank",
+      "Adapters",
+      "USB cables"
+    ],
+    "Documents": [
+      "IDs",
+      "Insurance documents",
+      "Travel tickets",
+      "Hotel reservations",
+      "Meeting agendas",
+      "Presentation materials"
+    ],
+    "Miscellaneous": [
+      "Notebook",
+      "Pens",
+      "Earplugs",
+      "Eye mask",
+      "Safety glasses",
+      "Umbrella",
+      "Snacks",
+      "Water bottle",
+      "Reusable shopping bag"
+    ]
+  }
+}

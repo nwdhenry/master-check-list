@@ -1,14 +1,19 @@
 {
     "settings": {
-        "page_width": 8.5,
-        "page_height": 11,
+        "page_width": 11,
+        "page_height": 8.5,
         "left_margin": 0.5,
+        "right_margin": 0.5,
         "top_margin": 0.5,
         "bottom_margin": 0.5,
-        "header_font_size": 14,
-        "item_font_size": 12,
-        "header_font": "DejaVuSerif",
-        "item_font": "DejaVuSerif"
+        "header_font_size": 18,
+        "item_font_size": 16,
+        "header_font": "DejaVuSerif-Italic",
+        "item_font": "DejaVuSansCondensed",
+        "row_spacing": 1.1,
+        "header_spacing": 0.5,
+        "category_spacing": 0.25,
+        "item_padding": 5
     },
     "categories": {
         "Fruits & Vegetables": [

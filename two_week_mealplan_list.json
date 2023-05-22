@@ -1,0 +1,129 @@
+{
+    "settings": {
+      "page_width": 11,
+      "page_height": 8.5,
+      "left_margin": 1,
+      "right_margin": 1,
+      "top_margin": 1,
+      "bottom_margin": 1,
+      "header_font_size": 14,
+      "item_font_size": 12,
+      "header_font": "DejaVuSerif",
+      "item_font": "DejaVuSerif",
+      "row_spacing": 1.5
+    },
+    "categories": {
+      "Week 1 - Day 1 - Breakfast": [
+        "Eggs",
+        "Bread",
+        "Butter",
+        "Milk",
+        "Salt",
+        "Pepper"
+      ],
+      "Week 1 - Day 1 - Lunch": [
+        "Chicken",
+        "Rice",
+        "Broccoli",
+        "Soy sauce",
+        "Garlic",
+        "Ginger"
+      ],
+      "Week 1 - Day 1 - Dinner": [
+        "Salmon",
+        "Quinoa",
+        "Spinach",
+        "Lemon",
+        "Olive oil"
+      ],
+      "Week 1 - Day 2 - Breakfast": [
+        "Oatmeal",
+        "Banana",
+        "Almond milk",
+        "Honey",
+        "Cinnamon"
+      ],
+      "Week 1 - Day 2 - Lunch": [
+        "Tofu",
+        "Noodles",
+        "Bell peppers",
+        "Sesame oil",
+        "Soy sauce",
+        "Red chili flakes"
+      ],
+      "Week 1 - Day 2 - Dinner": [
+        "Beef",
+        "Potatoes",
+        "Green beans",
+        "Rosemary",
+        "Garlic powder",
+        "Olive oil"
+      ],
+      "Week 1 - Day 3 - Breakfast": [
+        "Yogurt",
+        "Granola",
+        "Berries",
+        "Honey",
+        "Chia seeds"
+      ],
+      "Week 1 - Day 3 - Lunch": [
+        "Shrimp",
+        "Couscous",
+        "Zucchini",
+        "Lemon",
+        "Parsley"
+      ],
+      "Week 1 - Day 3 - Dinner": [
+        "Pork chops",
+        "Sweet potatoes",
+        "Asparagus",
+        "Thyme",
+        "Garlic",
+        "Butter"
+      ],
+      "Week 1 - Day 4 - Breakfast": [
+        "Scrambled eggs",
+        "Avocado",
+        "Tomato",
+        "Cheese",
+        "Cilantro",
+        "Tortillas"
+      ],
+      "Week 1 - Day 4 - Lunch": [
+        "Salad greens",
+        "Grilled chicken",
+        "Cucumber",
+        "Cherry tomatoes",
+        "Feta cheese",
+        "Balsamic vinaigrette"
+      ],
+      "Week 1 - Day 4 - Dinner": [
+        "Baked cod",
+        "Couscous",
+        "Broccolini",
+        "Lemon zest",
+        "Garlic",
+        "Olive oil"
+      ],
+      "Week 1 - Day 5 - Breakfast": [
+        "Pancakes",
+        "Maple syrup",
+        "Bacon",
+        "Fruit compote",
+        "Whipped cream"
+      ],
+      "Week 1 - Day 5 - Lunch": [
+        "Grilled steak",
+        "Roasted potatoes",
+        "Green salad",
+        "Chimichurri sauce"
+      ],
+      "Week 1 - Day 5 - Dinner": [
+        "Roasted chicken",
+        "Mashed potatoes",
+        "Green beans",
+        "Gravy"
+      ]
+    }
+  }
+  
