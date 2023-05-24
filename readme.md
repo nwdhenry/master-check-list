@@ -11,6 +11,8 @@ The program comprises three main Python modules:
 - `pdf_generation.py` includes the function `generate_pdf`, responsible for creating the PDF file.
 - `input_processing.py` provides the function `read_input_file`, which parses the JSON input file and returns the `settings` and `categories` dictionaries.
 
+The program now includes various sorting and category fitting methods including alphabetical, numerical and custom sort. These sorting methods are defined in `settings["fit_method"]` in the JSON input file.
+
 ## Usage
 
 To use the program, run the following command in the project's root directory:
@@ -41,7 +43,8 @@ The input JSON file should have the following structure:
         "row_spacing": float,
         "header_spacing": float,
         "category_spacing": float,
-        "item_padding": int 
+        "item_padding": int,
+        "fit_method": "method_name"
     },
     "categories": {
         "Category 1": [
@@ -58,7 +61,7 @@ The input JSON file should have the following structure:
 }
 ```
 
-- `settings`: Contains the formatting settings for the PDF output. Page dimensions and margins are in inches. Font sizes are in points, with spacing as a multiple of the font size. `header_font` and `item_font` refer to the names of `.ttf` files in the `fonts` folder.
+- `settings`: Contains the formatting settings for the PDF output. Page dimensions and margins are in inches. Font sizes are in points, with spacing as a multiple of the font size. `header_font` and `item_font` refer to the names of `.ttf` files in the `fonts` folder. `fit_method` determines the method used to sort the categories.
 - `categories`: Contains the list items organized into categories. Each category has an array of items.
 
 If the `settings` or `categories` fields are not present in the JSON file, an error will be logged. It's essential to ensure these fields are correctly populated.
@@ -151,7 +154,6 @@ Here's an example JSON input file for a grocery list:
     }
 }
 ```
-
 ## Dependencies
 
 The program requires the following Python packages to be installed:
@@ -164,17 +166,16 @@ Install the required packages using pip:
 pip install reportlab
 ```
 
----
-
 ## Fonts
 
-The program uses the DejaVu Serif font by default. If you want to use a different font, place the corresponding `.ttf` file in the `fonts` folder and update the `header_font` and/or `item_font` in the JSON input file. The DejaVu fonts can be found at [DejaVu Fonts](https://dejavu-fonts.github.io/).
+The program uses the DejaVu Serif font by default. If you want to use a different font, place the corresponding `.ttf` file in the `fonts` folder and update the `header_font` and
 
----
+/or `item_font` in the JSON input file. The DejaVu fonts can be found at [DejaVu Fonts](https://dejavu-fonts.github.io/).
 
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
+
 
