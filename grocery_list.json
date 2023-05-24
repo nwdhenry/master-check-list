@@ -13,7 +13,8 @@
         "row_spacing": 1.1,
         "header_spacing": 0.5,
         "category_spacing": 0.25,
-        "item_padding": 5
+        "item_padding": 5,
+        "fit_method": "best_fit"
     },
     "categories": {
         "Fruits & Vegetables": [

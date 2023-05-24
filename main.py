@@ -1,7 +1,5 @@
 """
 Filename: main.py
-Author: Nathan Henry
-Date: 2023/05/22
 Purpose: This module is the entry point for the PDF "master check list" generation program. 
 It processes user input, calculates settings, and initiates PDF generation.
 """

@@ -1,7 +1,7 @@
 {
     "settings": {
-      "page_width": 11,
-      "page_height": 8.5,
+      "page_width": 8.5,
+      "page_height": 11,
       "left_margin": 1,
       "right_margin": 1,
       "top_margin": 1,
@@ -10,120 +10,202 @@
       "item_font_size": 12,
       "header_font": "DejaVuSerif",
       "item_font": "DejaVuSerif",
-      "row_spacing": 1.5
+      "row_spacing": 1.1,
+      "header_spacing": 0.5,
+      "category_spacing": 0.25,
+      "item_padding": 5,
+      "fit_method": "custom"
     },
-    "categories": {
-      "Week 1 - Day 1 - Breakfast": [
-        "Eggs",
-        "Bread",
-        "Butter",
-        "Milk",
-        "Salt",
-        "Pepper"
-      ],
-      "Week 1 - Day 1 - Lunch": [
-        "Chicken",
-        "Rice",
-        "Broccoli",
-        "Soy sauce",
-        "Garlic",
-        "Ginger"
-      ],
-      "Week 1 - Day 1 - Dinner": [
-        "Salmon",
-        "Quinoa",
-        "Spinach",
-        "Lemon",
-        "Olive oil"
-      ],
-      "Week 1 - Day 2 - Breakfast": [
-        "Oatmeal",
-        "Banana",
-        "Almond milk",
-        "Honey",
-        "Cinnamon"
-      ],
-      "Week 1 - Day 2 - Lunch": [
-        "Tofu",
-        "Noodles",
-        "Bell peppers",
-        "Sesame oil",
-        "Soy sauce",
-        "Red chili flakes"
-      ],
-      "Week 1 - Day 2 - Dinner": [
-        "Beef",
-        "Potatoes",
-        "Green beans",
-        "Rosemary",
-        "Garlic powder",
-        "Olive oil"
-      ],
-      "Week 1 - Day 3 - Breakfast": [
-        "Yogurt",
-        "Granola",
-        "Berries",
-        "Honey",
-        "Chia seeds"
-      ],
-      "Week 1 - Day 3 - Lunch": [
-        "Shrimp",
-        "Couscous",
-        "Zucchini",
-        "Lemon",
-        "Parsley"
-      ],
-      "Week 1 - Day 3 - Dinner": [
-        "Pork chops",
-        "Sweet potatoes",
-        "Asparagus",
-        "Thyme",
-        "Garlic",
-        "Butter"
-      ],
-      "Week 1 - Day 4 - Breakfast": [
-        "Scrambled eggs",
-        "Avocado",
-        "Tomato",
-        "Cheese",
-        "Cilantro",
-        "Tortillas"
-      ],
-      "Week 1 - Day 4 - Lunch": [
-        "Salad greens",
-        "Grilled chicken",
-        "Cucumber",
-        "Cherry tomatoes",
-        "Feta cheese",
-        "Balsamic vinaigrette"
-      ],
-      "Week 1 - Day 4 - Dinner": [
-        "Baked cod",
-        "Couscous",
-        "Broccolini",
-        "Lemon zest",
-        "Garlic",
-        "Olive oil"
-      ],
-      "Week 1 - Day 5 - Breakfast": [
-        "Pancakes",
-        "Maple syrup",
-        "Bacon",
-        "Fruit compote",
-        "Whipped cream"
-      ],
-      "Week 1 - Day 5 - Lunch": [
-        "Grilled steak",
-        "Roasted potatoes",
-        "Green salad",
-        "Chimichurri sauce"
-      ],
-      "Week 1 - Day 5 - Dinner": [
-        "Roasted chicken",
-        "Mashed potatoes",
-        "Green beans",
-        "Gravy"
-      ]
-    }
-  }
+      "categories": {
+        "W1D1 - Breakfast": [
+          "Eggs (4)",
+          "Bread (4 slices)",
+          "Butter (2 tbsp)",
+          "Milk (1 cup)",
+          "Salt (to taste)",
+          "Pepper (to taste)",
+          "Instructions",
+          "1. Beat eggs in a bowl",
+          "2. Season with salt & pepper",
+          "3. Heat butter in skillet",
+          "4. Cook eggs until set",
+          "5. Toast bread slices",
+          "6. Serve scrambled eggs with toast"
+        ],
+        "W1D1 - Lunch": [
+          "Chicken (2 breasts)",
+          "Rice (1 cup)",
+          "Broccoli (2 cups)",
+          "Soy sauce (2 tbsp)",
+          "Garlic (2 cloves)",
+          "Ginger (1 tsp)",
+          "Instructions",
+          "1. Cook rice according to instructions",
+          "2. Season chicken with salt & pepper",
+          "3. Cook chicken until browned & cooked",
+          "4. Remove chicken & set aside",
+          "5. In same skillet, add garlic & ginger",
+          "6. Cook broccoli until tender-crisp",
+          "7. Slice chicken & serve with rice, broccoli",
+          "   Drizzle with soy sauce"
+        ],
+        "W1D1 - Dinner": [
+          "Salmon (2 fillets)",
+          "Quinoa (1 cup)",
+          "Spinach (2 cups)",
+          "Lemon (1)",
+          "Olive oil (2 tbsp)",
+          "Instructions",
+          "1. Preheat oven to 400°F (200°C)",
+          "2. Place salmon on lined baking sheet",
+          "3. Drizzle salmon with olive oil",
+          "4. Squeeze lemon juice over salmon",
+          "5. Season with salt & pepper",
+          "6. Bake for 12-15 minutes until cooked",
+          "7. Cook quinoa according to package",
+          "8. Sauté spinach in olive oil until wilted",
+          "9. Serve salmon with quinoa & spinach"
+        ],
+        "W1D2 - Breakfast": [
+          "Oatmeal (1 cup)",
+          "Banana (2, sliced)",
+          "Almond milk (1 cup)",
+          "Honey (2 tbsp)",
+          "Cinnamon (1 tsp)",
+          "Instructions",
+          "1. Cook oatmeal according to package",
+          "2. Top with sliced bananas",
+          "3. Drizzle with honey",
+          "4. Sprinkle with cinnamon"
+        ],
+        "W1D2 - Lunch": [
+          "Tofu (1 block, cubed)",
+          "Noodles (8 oz)",
+          "Bell peppers (2, sliced)",
+          "Sesame oil (2 tbsp)",
+          "Soy sauce (2 tbsp)",
+          "Red chili flakes (1 tsp)",
+          "Instructions",
+          "1. Cook noodles according to package",
+          "2. Drain and set aside",
+          "3. Heat sesame oil in skillet",
+          "4. Add tofu and cook until browned",
+          "5. Add bell peppers and cook until tender",
+          "6. Stir in cooked noodles, soy sauce",
+          "7. Sprinkle with red chili flakes"
+        ],
+        "W1D2 - Dinner": [
+          "Beef (1 lb, sliced)",
+          "Potatoes (4, cubed)",
+          "Green beans (2 cups)",
+          "Rosemary (1 sprig)",
+          "Garlic powder (1 tsp)",
+          "Olive oil (2 tbsp)",
+          "Instructions",
+          "1. Preheat oven to 425°F (220°C)",
+          "2. Toss potatoes with olive oil, rosemary",
+          "3. Spread on baking sheet, roast for 20-25 min",
+          "4. Heat olive oil in skillet",
+          "5. Add beef, cook until browned",
+          "6. Add green beans, cook until tender",
+          "7. Season with garlic powder",
+          "8. Serve beef and green beans with roasted potatoes"
+        ],
+        "W1D3 - Breakfast": [
+          "Yogurt (1 cup)",
+          "Granola (1/2 cup)",
+          "Berries (1 cup)",
+          "Honey (2 tbsp)",
+          "Chia seeds (1 tbsp)",
+          "Instructions",
+          "1. Layer yogurt, granola, and berries",
+          "2. Drizzle with honey",
+          "3. Sprinkle with chia seeds"
+        ],
+        "W1D3 - Lunch": [
+          "Shrimp (1 lb, peeled & deveined)",
+          "Couscous (1 cup)",
+          "Zucchini (2, sliced)",
+          "Lemon (1)",
+          "Parsley (2 tbsp)",
+          "Instructions",
+          "1. Cook couscous according to package",
+          "2. Heat oil in skillet over medium heat",
+          "3. Add shrimp, cook until pink & opaque",
+          "4. Remove shrimp & set aside",
+          "5. In same skillet, add zucchini & cook",
+          "6. Squeeze lemon juice over zucchini",
+          "7. Serve shrimp and zucchini over couscous",
+          "8. Sprinkle with chopped parsley"
+        ],
+        "W1D3 - Dinner": [
+          "Pork chops (2)",
+          "Sweet potatoes (2, cubed)",
+          "Asparagus (1 bunch)",
+          "Thyme (1 sprig)",
+          "Garlic (2 cloves)",
+          "Butter (2 tbsp)",
+          "Instructions",
+          "1. Preheat oven to 400°F (200°C)",
+          "2. Season pork chops with salt, pepper, thyme",
+          "3. Cook chops in skillet until browned",
+          "4. Transfer chops to baking dish",
+          "5. Bake for 12-15 minutes until cooked",
+          "6. Toss sweet potatoes with minced garlic",
+          "7. Roast sweet potatoes until tender",
+          "8. Steam or roast asparagus until tender-crisp",
+          "9. Serve pork chops with sweet potatoes & asparagus"
+        ],
+        "W1D4 - Breakfast": [
+          "Scrambled eggs (4)",
+          "Avocado (1, sliced)",
+          "Tomato (1, sliced)",
+          "Cheese (1/2 cup, shredded)",
+          "Cilantro (2 tbsp, chopped)",
+          "Tortillas (4)",
+          "Instructions",
+          "1. Beat eggs in a bowl",
+          "2. Cook scrambled eggs in skillet",
+          "3. Warm tortillas in a dry skillet",
+          "4. Assemble tortillas with scrambled eggs",
+          "5. Add avocado, tomato, cheese, and cilantro",
+          "6. Roll up tortillas and serve"
+        ],
+        "W1D4 - Lunch": [
+          "Salad greens (4 cups)",
+          "Grilled chicken (2 breasts, sliced)",
+          "Cucumber (1, sliced)",
+          "Cherry tomatoes (1 cup)",
+          "Feta cheese (1/2 cup, crumbled)",
+          "Balsamic vinaigrette (4 tbsp)",
+          "Instructions",
+          "1. Combine salad greens, sliced chicken, cucumber",
+          "2. Add cherry tomatoes and crumbled feta",
+          "3. Drizzle with balsamic vinaigrette",
+          "4. Toss to coat well"
+        ],
+        "W1D4 - Dinner": [
+          "Baked cod (2 fillets)",
+          "Couscous (1 cup)",
+          "Broccolini",
+          "Lemon zest",
+          "Garlic (2 cloves)",
+          "Olive oil (2 tbsp)",
+          "Instructions",
+          "1. Preheat oven to 400°F (200°C)",
+          "2. Place cod fillets on lined baking sheet",
+          "3. Drizzle with olive oil, lemon zest, salt & pepper",
+          "4. Bake for 12-15 minutes until cod is flaky",
+          "5. Cook couscous according to package",
+          "6. Steam broccolini until tender-crisp",
+          "7. In a skillet, heat olive oil over medium heat",
+          "8. Add minced garlic, cook for a minute",
+          "9. Toss cooked couscous and broccolini in skillet",
+          "10. Serve baked cod with couscous and broccolini"
+        ]
+      }
+    
+    
+}
+            
   
