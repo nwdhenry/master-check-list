@@ -1,0 +1,41 @@
+READ BEFORE EDITS
+
+YOU SHOULD BE READING CODE MORE THAN EDITING
+
+DEBUGGING MEANS TRACING THE PATH OF THE ISSUE FIRST AND THEN MAKING AN EDITING
+
+
+<thinking>
+BEFORE using attempt_completion, I MUST verify:
+□ Have I tested?
+□ Have I confirmed success expected from the user for each test?
+□ Have I documented the test results so that debugging will not be circular?
+
+DON'T ASSUME ANYTHING, READ THE CODE & DOCUMENT YOUR FINDINGS
+ALWAYS ask yourself:
+IS THIS BEST PRACTICE?
+SOLID, DRY, KISS, YAGNI?
+IS THIS THE BEST WAY TO DO THIS?
+If ANY answer is "no", I MUST NOT use attempt_completion.
+</thinking>
+
+1. Test (REQUIRED)
+   □ Test with valid inputs
+   □ Verify output format is correct
+   ⚠️ DO NOT PROCEED UNTIL TESTED
+
+## Completion
+❗ STOP AND VERIFY:
+□ OUTPUT has been tested with valid inputs
+□ Output format is correct!!! ONE PAGE USING THE SAME FONT AND SIZE
+
+Only after ALL tests PASS can attempt_completion be used.
+If a test for a task is missing, I should create one before proceeding.
+
+## Key Requirements
+- ✓ Must GENERATE a valid _ONE PAGE_ output.pdf
+- ✓ Must not change font or size 
+- ✓ Must have comprehensive logging
+- ✓ Must test each tool individually
+- ✓ Must handle errors gracefully
+- ⛔️ NEVER skip testing before completion

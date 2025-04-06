@@ -6,12 +6,17 @@ It processes user input, calculates settings, and initiates PDF generation.
 
 import argparse
 import logging
+from pathlib import Path
 from typing import Dict, Any
-from reportlab.lib.units import inch
+from input_processing import read_input_file
 from pdf_generation import generate_pdf
+
+# Configure logging
+logging.basicConfig(level=logging.DEBUG)
 from input_processing import read_input_file
 from reportlab.pdfbase.pdfmetrics import stringWidth, registerFont
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.units import inch
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
