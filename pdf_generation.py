@@ -128,6 +128,9 @@ def sort_categories_by_method(settings: Dict[str, Any], categories: Dict[str, An
         return sort_categories_custom(settings, categories)
     else:
         logger.warning(f"Invalid fit method '{fit_method}', defaulting to 'best_fit'")
+        #TODO:
+        # 'force-fit': break longer categories to fill pages and increase the header size to overlap
+        # 'box-fit' : square up categories and then use a box packing strategy to fill the available page space
         return sort_categories_for_best_fit(settings, categories)
 
 def sort_categories_for_best_fit(settings: Dict[str, Any], categories: Dict[str, Any]) -> List[List[Tuple[str, List[str]]]]:
